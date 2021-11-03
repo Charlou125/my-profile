@@ -1,0 +1,102 @@
+.data {
+  max-width: 87%;
+  margin: 0 auto;
+}
+
+h1 {
+      padding: 20px;
+    border: 2px solid black;
+    justify-content: center;
+    display: flex;
+    border-radius: 50px;
+    max-width: 42%;
+    margin: 30px auto;
+    background: #70677F;
+    color: black;
+    font-weight: bold;
+    font-size: -webkit-xxx-large;
+}
+
+body {
+  background: #3a3b54!important;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  align-content: center;
+}
+
+h3 {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background-image: url(https://image.jimcdn.com/app/cms/image/transf/none/path/s65caaa14dd17d8a9/backgroundarea/i59d3e388cdd73f2b/version/1615060669/image.jpg);
+}
+
+img {
+  width: 230px;
+  border-radius: 110px;
+}
+
+.container {
+  /*border: solid gray 1px;*/
+  margin: 5px;
+  padding: 20px;
+  border-radius: 66px;
+  text-align: center;
+}
+
+.boite1 {
+  border: solid white 2px;
+  border-radius: 50%;
+  margin: 9px;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  width: 25px;
+}
+
+.boite2 {
+  border: solid white 2px;
+  margin: 5px;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.pers {
+  text-align: initial;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 25px;
+  row-gap: 25px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.fab {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  outline: none !important;
+  outline-offset: 0 !important;
+}
+
+@media (max-device-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
